@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagement.error;
+package hospitalManagementSystem.error;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

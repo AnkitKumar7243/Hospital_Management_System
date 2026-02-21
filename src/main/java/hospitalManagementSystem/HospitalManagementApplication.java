@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagement;
+package hospitalManagementSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

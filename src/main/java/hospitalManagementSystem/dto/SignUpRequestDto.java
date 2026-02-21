@@ -1,6 +1,6 @@
-package com.codingshuttle.youtube.hospitalManagement.dto;
+package hospitalManagementSystem.dto;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.type.RoleType;
+import hospitalManagementSystem.entity.type.RoleType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

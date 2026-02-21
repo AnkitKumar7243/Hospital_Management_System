@@ -1,6 +1,6 @@
-package com.codingshuttle.youtube.hospitalManagement.repository;
+package hospitalManagementSystem.repository;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.Appointment;
+import hospitalManagementSystem.entity.Appointment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AppointmentRepository extends JpaRepository<Appointment, Long> {

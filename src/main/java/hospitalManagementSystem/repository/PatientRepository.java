@@ -1,8 +1,8 @@
-package com.codingshuttle.youtube.hospitalManagement.repository;
+package hospitalManagementSystem.repository;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.BloodGroupCountResponseEntity;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.BloodGroupType;
+import hospitalManagementSystem.dto.BloodGroupCountResponseEntity;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.entity.type.BloodGroupType;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

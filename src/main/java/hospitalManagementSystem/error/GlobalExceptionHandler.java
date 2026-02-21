@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagement.error;
+package hospitalManagementSystem.error;
 
 import io.jsonwebtoken.JwtException;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
-package com.codingshuttle.youtube.hospitalManagement.repository;
+package hospitalManagementSystem.repository;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.AuthProviderType;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.entity.type.AuthProviderType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
