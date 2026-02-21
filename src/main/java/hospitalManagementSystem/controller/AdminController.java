@@ -1,10 +1,10 @@
-package com.codingshuttle.youtube.hospitalManagement.controller;
+package hospitalManagementSystem.controller;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.DoctorResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.OnboardDoctorRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.PatientResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.service.DoctorService;
-import com.codingshuttle.youtube.hospitalManagement.service.PatientService;
+import hospitalManagementSystem.dto.DoctorResponseDto;
+import hospitalManagementSystem.dto.OnboardDoctorRequestDto;
+import hospitalManagementSystem.dto.PatientResponseDto;
+import hospitalManagementSystem.service.DoctorService;
+import hospitalManagementSystem.service.PatientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package com.codingshuttle.youtube.hospitalManagement.controller;
+package hospitalManagementSystem.controller;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.LoginRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.LoginResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.SignUpRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.SignupResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.security.AuthService;
+import hospitalManagementSystem.dto.LoginRequestDto;
+import hospitalManagementSystem.dto.LoginResponseDto;
+import hospitalManagementSystem.dto.SignUpRequestDto;
+import hospitalManagementSystem.dto.SignupResponseDto;
+import hospitalManagementSystem.security.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

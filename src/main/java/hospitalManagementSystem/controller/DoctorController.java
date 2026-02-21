@@ -1,8 +1,8 @@
-package com.codingshuttle.youtube.hospitalManagement.controller;
+package hospitalManagementSystem.controller;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.AppointmentResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.service.AppointmentService;
+import hospitalManagementSystem.dto.AppointmentResponseDto;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.service.AppointmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
