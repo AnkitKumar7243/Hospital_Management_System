@@ -1,9 +1,9 @@
-package com.codingshuttle.youtube.hospitalManagement.service;
+package hospitalManagementSystem.service;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.Insurance;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.repository.InsuranceRepository;
-import com.codingshuttle.youtube.hospitalManagement.repository.PatientRepository;
+import hospitalManagementSystem.entity.Insurance;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.repository.InsuranceRepository;
+import hospitalManagementSystem.repository.PatientRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

@@ -1,12 +1,12 @@
-package com.codingshuttle.youtube.hospitalManagement.service;
+package hospitalManagementSystem.service;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.DoctorResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.OnboardDoctorRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.entity.Doctor;
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.RoleType;
-import com.codingshuttle.youtube.hospitalManagement.repository.DoctorRepository;
-import com.codingshuttle.youtube.hospitalManagement.repository.UserRepository;
+import hospitalManagementSystem.dto.DoctorResponseDto;
+import hospitalManagementSystem.dto.OnboardDoctorRequestDto;
+import hospitalManagementSystem.entity.Doctor;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.entity.type.RoleType;
+import hospitalManagementSystem.repository.DoctorRepository;
+import hospitalManagementSystem.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

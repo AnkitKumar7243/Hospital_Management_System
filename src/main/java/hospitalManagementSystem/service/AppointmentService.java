@@ -1,13 +1,13 @@
-package com.codingshuttle.youtube.hospitalManagement.service;
+package hospitalManagementSystem.service;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.AppointmentResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.CreateAppointmentRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.entity.Appointment;
-import com.codingshuttle.youtube.hospitalManagement.entity.Doctor;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.repository.AppointmentRepository;
-import com.codingshuttle.youtube.hospitalManagement.repository.DoctorRepository;
-import com.codingshuttle.youtube.hospitalManagement.repository.PatientRepository;
+import hospitalManagementSystem.dto.AppointmentResponseDto;
+import hospitalManagementSystem.dto.CreateAppointmentRequestDto;
+import hospitalManagementSystem.entity.Appointment;
+import hospitalManagementSystem.entity.Doctor;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.repository.AppointmentRepository;
+import hospitalManagementSystem.repository.DoctorRepository;
+import hospitalManagementSystem.repository.PatientRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
