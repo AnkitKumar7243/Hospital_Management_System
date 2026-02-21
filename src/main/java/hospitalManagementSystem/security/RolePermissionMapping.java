@@ -1,15 +1,15 @@
-package com.codingshuttle.youtube.hospitalManagement.security;
+package hospitalManagementSystem.security;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.type.PermissionType;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.RoleType;
+import hospitalManagementSystem.entity.type.PermissionType;
+import hospitalManagementSystem.entity.type.RoleType;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.codingshuttle.youtube.hospitalManagement.entity.type.PermissionType.*;
-import static com.codingshuttle.youtube.hospitalManagement.entity.type.RoleType.*;
+import static hospitalManagementSystem.entity.type.PermissionType.*;
+import static hospitalManagementSystem.entity.type.RoleType.*;
 
 public class RolePermissionMapping {
 

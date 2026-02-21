@@ -1,6 +1,6 @@
-package com.codingshuttle.youtube.hospitalManagement.security;
+package hospitalManagementSystem.security;
 
-import com.codingshuttle.youtube.hospitalManagement.repository.UserRepository;
+import hospitalManagementSystem.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

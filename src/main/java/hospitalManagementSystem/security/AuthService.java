@@ -1,15 +1,15 @@
-package com.codingshuttle.youtube.hospitalManagement.security;
+package hospitalManagementSystem.security;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.LoginRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.LoginResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.SignUpRequestDto;
-import com.codingshuttle.youtube.hospitalManagement.dto.SignupResponseDto;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.AuthProviderType;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.RoleType;
-import com.codingshuttle.youtube.hospitalManagement.repository.PatientRepository;
-import com.codingshuttle.youtube.hospitalManagement.repository.UserRepository;
+import hospitalManagementSystem.dto.LoginRequestDto;
+import hospitalManagementSystem.dto.LoginResponseDto;
+import hospitalManagementSystem.dto.SignUpRequestDto;
+import hospitalManagementSystem.dto.SignupResponseDto;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.entity.type.AuthProviderType;
+import hospitalManagementSystem.entity.type.RoleType;
+import hospitalManagementSystem.repository.PatientRepository;
+import hospitalManagementSystem.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

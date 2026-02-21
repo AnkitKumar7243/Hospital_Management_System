@@ -1,7 +1,7 @@
-package com.codingshuttle.youtube.hospitalManagement.security;
+package hospitalManagementSystem.security;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.repository.UserRepository;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.repository.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

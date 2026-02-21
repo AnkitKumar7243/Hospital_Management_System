@@ -1,7 +1,7 @@
-package com.codingshuttle.youtube.hospitalManagement.security;
+package hospitalManagementSystem.security;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.User;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.AuthProviderType;
+import hospitalManagementSystem.entity.User;
+import hospitalManagementSystem.entity.type.AuthProviderType;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
