@@ -1,10 +1,10 @@
-package com.codingshuttle.youtube.hospitalManagement;
+package hospitalManagementSystem;
 
-import com.codingshuttle.youtube.hospitalManagement.entity.Appointment;
-import com.codingshuttle.youtube.hospitalManagement.entity.Insurance;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.service.AppointmentService;
-import com.codingshuttle.youtube.hospitalManagement.service.InsuranceService;
+import hospitalManagementSystem.entity.Appointment;
+import hospitalManagementSystem.entity.Insurance;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.service.AppointmentService;
+import hospitalManagementSystem.service.InsuranceService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

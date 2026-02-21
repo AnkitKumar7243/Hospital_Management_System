@@ -1,19 +1,15 @@
-package com.codingshuttle.youtube.hospitalManagement;
+package hospitalManagementSystem;
 
-import com.codingshuttle.youtube.hospitalManagement.dto.BloodGroupCountResponseEntity;
-import com.codingshuttle.youtube.hospitalManagement.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagement.entity.type.BloodGroupType;
-import com.codingshuttle.youtube.hospitalManagement.repository.PatientRepository;
-import com.codingshuttle.youtube.hospitalManagement.service.PatientService;
+import hospitalManagementSystem.entity.Patient;
+import hospitalManagementSystem.repository.PatientRepository;
+import hospitalManagementSystem.service.PatientService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @SpringBootTest
